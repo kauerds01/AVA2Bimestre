@@ -19,8 +19,8 @@ def gerar_aviso(status):
 #Kauê Rodrigues da Silva: Parte 4-- Integração
 print("Bem vindo ao seu avaliador de saúde pessoal 😁")
 print("Aqui iremos avaliar seu estado físico 💪🏻")
-peso = float(input("Qual é seu peso atual?"))
-altura = float(input("Qual é sua altura atual em metros?"))
+peso = float(input("Qual é seu peso atual?: "))
+altura = float(input("Qual é sua altura atual em metros?: "))
 imc_final = calcular_imc(peso, altura)
 status_final = classificador(imc_final)
 aviso_final = gerar_aviso(status_final)
